@@ -22,7 +22,7 @@ body {
 #bridgeContainer {
   margin: auto;
   text-align: center;
-  font: sans-serif;
+  font-family: sans-serif;
 }
 
 #bridgeContainer figcaption {
