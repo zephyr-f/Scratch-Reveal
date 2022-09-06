@@ -66,7 +66,7 @@ bridge.addEventListener(
     e.preventDefault();
     var touch = e.targetTouches[0];
     if (touch) {
-      var brushPos = getBrushPos(touch.pageX, touch.pageY);
+      var brushPos = getBrushPos(touch.clientX, touch.clientY);
       drawDot(brushPos.x, brushPos.y);
     }
   },
