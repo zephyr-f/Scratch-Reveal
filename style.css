@@ -16,6 +16,7 @@ body {
   object-fit: contain;
   cursor: crosshair;
   cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+  margin: auto;
 }
 
 #bridgeContainer {
