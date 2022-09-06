@@ -10,7 +10,9 @@ body {
   background-size: cover;
   /* width: 100%; */
   /* max-width: 750px; */
+  max-width: 90vw;
   /* height: auto; */
+  /* max-height: 90vh; */
   object-fit: contain;
   cursor: crosshair;
   cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
