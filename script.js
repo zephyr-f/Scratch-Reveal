@@ -8,8 +8,8 @@ if (brushRadius < 50) {
 }
 
 img.onload = function () {
-  bridgeCanvas.canvas.width = window.innerWidth;
-  bridgeCanvas.canvas.height = window.innerHeight;
+  //   bridgeCanvas.canvas.width = window.innerWidth;
+  //   bridgeCanvas.canvas.height = window.innerHeight;
   bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
 };
 // 👇🏽 insert front image url here
