@@ -1,3 +1,5 @@
+const userId = document.location.search.substring(1);
+console.log('userId= ', userId);
 var bridge = document.getElementById('bridge'),
   bridgeCanvas = bridge.getContext('2d'),
   brushRadius = (bridge.width / 100) * 5,
