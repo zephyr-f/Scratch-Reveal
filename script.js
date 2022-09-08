@@ -17,7 +17,9 @@ img.onload = function () {
 // 👇🏽 insert front image url here
 img.src =
   'https://dl.airtable.com/.attachmentThumbnails/3700e4b2c5f478833b6563a1eb74328a/277aad2d';
-
+// 👇🏽 insert back image
+const fullImageUrl = 'https://dl.airtable.com/.attachments/' + userId;
+bridge.style.backgroundImage = 'url(' + fullImageUrl + ')';
 function detectLeftButton(event) {
   if ('buttons' in event) {
     return event.buttons === 1;
